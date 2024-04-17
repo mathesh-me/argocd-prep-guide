@@ -40,7 +40,8 @@ Used Repository URL: `https://github.com/argoproj/argocd-example-apps`
 
 ### Results:
 
+![Screenshot 2024-04-17 073904](https://github.com/mathesh-me/argo-cd-prep/assets/144098846/8b6c3db2-c946-45cb-b864-97ddfcc482ff)
 
-
+![Screenshot 2024-04-17 073843](https://github.com/mathesh-me/argo-cd-prep/assets/144098846/d739a586-4fe1-41d7-a885-742422b7a018)
 
 

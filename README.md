@@ -2,7 +2,9 @@
 
 This repository contains the learning and preparation materials I used to learn Argo CD.
 
-![argo-cd](https://github.com/mathesh-me/argo-cd-prep/assets/144098846/5c1a0f58-3819-4f05-915e-19a48cce3ef4)
+<p align="center">
+    <img src="https://github.com/mathesh-me/argo-cd-prep/assets/144098846/5c1a0f58-3819-4f05-915e-19a48cce3ef4" alt="argo-cd" />
+</p>
 
 ## Resources I Used
 

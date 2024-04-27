@@ -36,4 +36,19 @@ The above example creates a role `ci-role` with the following permissions:
 
 - `applications` - Sync privileges for `myproject/*`
 
+**JWT Tokens:**
+
+- Project Roles are not used without JWT Tokens.
+- So we have to Create JWT Tokens.
+- We can create JWT Tokens using the following command:
+```bash
+argocd proj role create-token myproject ci-role
+```
+- Note that: This token will not be stored in Argo CD, so make sure to store it in a secure place.
+- So later we can use this token to authenticate CI agents.
+- Example of using JWT Token:
+```bash
+argocd cluster list --auth-token <token-value>
+```
+
 Date of Creation: 27/04/2024

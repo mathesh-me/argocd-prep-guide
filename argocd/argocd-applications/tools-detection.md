@@ -18,7 +18,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: guestbook
-  namespace: default
+  namespace: argocd
 spec:
   destination:
     namespace: default
@@ -47,7 +47,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: guestbook
-  namespace: default
+  namespace: argocd
 spec:
   destination:
     namespace: default
@@ -76,7 +76,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: guestbook
-  namespace: default
+  namespace: argocd
 spec:
   destination:
     namespace: default
@@ -102,7 +102,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: guestbook
-  namespace: default
+  namespace: argocd
 spec:
   destination:
     namespace: default

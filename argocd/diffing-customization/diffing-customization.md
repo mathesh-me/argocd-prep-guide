@@ -2,7 +2,7 @@
 
 ### Why we need diffing customization?
 
-- It is possible for an application to be OutOfSync even immediately after a successful Sync operation. Some reasons may be:
+- It is possible for an application to be **OutOfSync** even immediately after a successful Sync operation. Some reasons may be:
     - There is a bug in the manifest, where it contains extra/unknown fields from the actual K8s spec. These extra fields would get dropped when querying Kubernetes for the live state, resulting in an OutOfSync status indicating a missing field was detected.
     - The sync was performed (with pruning disabled), and there are resources which need to be deleted.
     - A controller or mutating webhook is altering the object after it was submitted to Kubernetes in a manner which contradicts Git.

@@ -2,11 +2,11 @@
 
 ### What is Project?
 
-A project is a collection of applications. We can group applications into projects. We can use Projects to define access control policies for applications. A Default project is created when Argo CD is installed. 
+A project is a **collection of applications**. We can group applications into projects. We can use Projects to define access control policies for applications. A Default project is created when Argo CD is installed. 
 
 **Access Restrictions in Project:**
 
-It will be useful when we have multiple teams working on different applications. We can restrict access to applications based on the project.
+It will be useful **when we have multiple teams** working on different applications. We can restrict access to applications based on the project.
 
 - **Trusted Git Repository**: We can allow only the trusted Repo.
 - **Destination Cluster and Namespace**: We can allow apps to be deployed only in a specific cluster and namespace.
@@ -91,6 +91,8 @@ argocd proj create myproject <flags>
 ```
 
 Refer Argo CD official [Documentation](https://argo-cd.readthedocs.io/en/latest/user-guide/commands/argocd_proj_create/) for Flags and Options.
+
+---
 
 ### Set Project Details in Application:
 

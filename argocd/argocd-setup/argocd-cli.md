@@ -2,17 +2,16 @@
 
 ### How to Install Argo CD CLI?
 
-Download latest version:
+Download `latest version`:
 
 ```bash
-
 curl -sSL -o argocd-linux-amd64 https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
 sudo install -m 555 argocd-linux-amd64 /usr/local/bin/argocd
 rm argocd-linux-amd64
 ```
 
-Download concrete version:
-Set VERSION replacing <TAG> in the command below with the version of Argo CD you would like to download:<br>
+Download `concrete version`:
+Set **VERSION** replacing <TAG> in the command below with the version of Argo CD you would like to download:<br>
 
 VERSION=<TAG> # Select desired TAG from https://github.com/argoproj/argo-cd/releases
 

@@ -56,3 +56,5 @@ spec:
     targetRevision: HEAD # It is like a Symbolic Link to the latest commit
     path: guestbook
 ```
+
+Date of Notes: 27/04/2024

@@ -1,6 +1,6 @@
 ## Tools(Format) Detection in Argo CD
 
-By Default, Argo CD uses the following formats to detect the tools:
+By Default, Argo CD uses the following formats to **Detect the tools**:
 
 1. **Kustomize**: If the application source is a Git repository and the path contains a `kustomization.yaml` file, Argo CD will automatically detect the format as Kustomize.
 2. **Helm**: If the application source is a Git repository and the path contains a `Chart.yaml` file, Argo CD will automatically detect the format as Helm.

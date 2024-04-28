@@ -53,7 +53,7 @@ spec:
       selfHeal: true
 ```
 
-**Argo CD Provide below Option for Helm Applications:**
+**Argo CD Provide below Options for Helm Applications:**
 
 - **Helm - Values files**: We can specify the values file for the Helm Application.
 - **Helm - Parameters**: We can override the values in `values.yaml` using the Helm Parameters.

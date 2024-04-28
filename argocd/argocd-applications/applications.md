@@ -6,8 +6,8 @@ The Application CRD is the **Kubernetes resource object** representing a deploye
 
 **An application is defined by two main components:**
 
-1. **Source**: The source of the application is defined in the Git repository. It will contains our Kubernetes manifests that define the application.
-2. **Destination**: The destination is the target environment where we want to deploy our Application. It contains the Kubernetes cluster URL and the namespace where the application will be deployed.
+1. **Source**: The source of the application is defined in the **Git repository**. It will contains our Kubernetes manifests that define the application.
+2. **Destination**: The destination is the **target environment** where we want to deploy our Application. It contains the Kubernetes cluster URL and the namespace where the application will be deployed.
 
 ### How to Create an Application in Argo CD?
 

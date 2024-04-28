@@ -1,13 +1,13 @@
 ## Kustomize Options in ArgoCD
 
-Argo CD provide below options for Kustomize:
+Argo CD provide below options for **Kustomize**:
 
-- Name prefix: Will get prepended to all resources.
-- Name suffix: Will get appended to all resources.
-- Images : To set image tags.
-- Common labels: Set labels on all resources.
-- Common annotations: We can set annotations on all resources.
-- Version: To explicitly set kustomize version.
+- **Name prefix:** Will get prepended to all resources.
+- **Name suffix:** Will get appended to all resources.
+- **Images:** We can set the images for all resources.
+- **Common labels:** Set labels on all resources.
+- **Common annotations:** We can set annotations on all resources.
+- **Version:** To explicitly set kustomize version.
 
 ### Example
 

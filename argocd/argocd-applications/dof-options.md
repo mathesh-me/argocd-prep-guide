@@ -1,8 +1,8 @@
 ## Directory of Files (DOF) Options
 
-Argo CD provides below options for Directory of Files (DOF):
+Argo CD provides below options for **Directory of Files (DOF)**:
 
-- **Recursive**: If set to true, Argo CD will recursively search for all manifests in the Sub directories also.
+- **Recursive**: If set to true, Argo CD will recursively search for all manifests in the **Sub directories also**.
 - **Jsonnet**: 
     - **ExtVars**: We can pass external variables to the Jsonnet files.
     - **TLA vars**: We can pass Top-level arguments to the Jsonnet files.

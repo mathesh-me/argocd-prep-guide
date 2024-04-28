@@ -4,7 +4,7 @@ We have to register our private Helm repositories in Argo CD to deploy the appli
 
 ### How to Add Private Helm Repositories?
 
-- Same as adding private Git repositories, we have to add private Helm repositories as K8S secret.
+- Same as adding private Git repositories, we have to **add private Helm repositories as K8S secret**.
 
 We can add our creds using the following ways:
 
@@ -40,7 +40,7 @@ argocd repo add <repo-url> --type helm --name <repo-name> --username <username> 
 
 ### How to Add Private Helm Repositories using Argo CD UI?
 
-- Go to the Argo CD UI.
+- Navigate to the Argo CD UI.
 - Click on the `Settings` tab.
 - Click on the `Repositories` tab.
 - Click on the `Add Repository` button.

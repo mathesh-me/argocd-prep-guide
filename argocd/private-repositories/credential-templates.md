@@ -1,6 +1,6 @@
 ## Credential Templates
 
-Useful when we want to use a single credential for multiple repositories. We can create a credential template and then use it in multiple repositories.<br>
+Useful when we want to use a **single credential for multiple repositories**. We can create a credential template and then use it in multiple repositories.<br>
 
 Example Use case: Organization has multiple repositories and we want to use the same credential for all the repositories.
 

@@ -1,6 +1,6 @@
 ## Private Git Repositories
 
-Normally, we use public repositories for our applications. But sometimes, we need to use private repositories for our applications. In this case, we need to provide the credentials to access the private repositories. We can provide the credentials in the following ways:
+Normally, we use public repositories for our applications. But sometimes, we need to use private repositories for our applications. In this case, **we need to provide the credentials to access the private repositories**. We can provide the credentials in the following ways:
 
 - **Using SSH Keys**: We can use SSH keys to access the private repositories.
 - **Using GitHub Apps**: We can use Personal Access Tokens to access the private repositories.
@@ -9,7 +9,7 @@ Normally, we use public repositories for our applications. But sometimes, we nee
 ### How to Add Private Git Repositories?
 
 - We have to add the private repositories in the Argo CD.
-- First we need to create a K8S secret with the `repo` credentials.
+- We need to create a **K8S secret** with the `repo` credentials for registering the private repositories.
 - We can add our Private Repositories in the Argo CD using Declartive way, Argo CD UI way or Argo CD CLI way.
 
 **Example of adding Private Repositories as K8S Secret using Declarative way:**

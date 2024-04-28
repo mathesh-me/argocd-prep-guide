@@ -1,6 +1,6 @@
 ## Sync Options
 
-We can set the sync options for the Argo CD applications. The sync options are used to control the behavior of the sync process. We have Sync options at application level and also at resource level.
+We can set the sync options for the Argo CD applications. The sync options are used **to control the behavior of the sync process**. We have Sync options at application level and also at resource level.
 
 Below are the Sync options available in Argo CD:
 

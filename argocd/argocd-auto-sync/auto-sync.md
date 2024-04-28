@@ -1,8 +1,8 @@
 ## Auto Sync in Argo CD
 
-We can enable auto-sync in Argo CD to automatically sync the applications whenever there is a change in the application source repository. Argo CD will poll the git repo for every 3 minutes and sync the application if there is any change in the source repository.<br>
+We can enable auto-sync in Argo CD to **automatically sync the applications whenever there is a change in the application source repository**. Argo CD will poll the git repo for every **3 minutes** and sync the application if there is any change in the source repository.<br>
 
-**Note:** Auto-sync is disabled by default in Argo CD. Auto-sync will not reattempt the sync if the previous sync failed for same Commit SHA and Parameters. And also, Rollback cannot be performed if we enable auto-sync. 
+**Note:** Auto-sync is **disabled by default** in Argo CD. Auto-sync will not reattempt the sync if the previous sync failed for same Commit SHA and Parameters. And also, Rollback cannot be performed if we enable auto-sync. 
 
 ### How to Enable Auto Sync?
 
@@ -49,13 +49,13 @@ argocd app set my-app --sync-policy automated <other-flags>
 - Click on the `Applications` tab.
 - Click on the Application.
 - Click on the `Settings` tab.
-- Enable the `Auto-Sync` toggle button.
+- Just Enable the `Auto-Sync` toggle button.
 
 ---
 
 ## Auto Prune in Argo CD
 
-Let's say we enabled auto-sync in Argo CD. And Argo CD synced the application with the source repository. If we delete any resource from the source repository now, that resource will not be deleted from the cluster. To delete the resources from the cluster, we have to enable auto-prune in Argo CD. By default, auto-prune is disabled in Argo CD.
+Let's say **we enabled auto-sync in Argo CD. And Argo CD synced the application with the source repository. If we delete any resource from the source repository now, that resource will not be deleted from the cluster. To delete the resources from the cluster, we have to enable auto-prune in Argo CD**. By default, auto-prune is disabled in Argo CD.
 
 ### How to Enable Auto Prune?
 
@@ -102,11 +102,11 @@ argocd app set my-app --sync-policy automated --sync-option Prune=true <other-fl
 
 ## Self Heal in Argo CD
 
-If we edit some configuration in the cluster manually, Argo CD will not sync it automatically. To sync the changes, we have to enable self-heal in Argo CD. Self-heal is disabled by default in Argo CD. So, Argo CD will always maintain the desired state of the application.
+If **we edit some configuration in the cluster manually, Argo CD will not sync it automatically. To sync the changes, we have to enable self-heal in Argo CD.** Self-heal is disabled by default in Argo CD. So, Argo CD will always maintain the desired state of the application.
 
 ### How to Enable Self Heal?
 
-The same three ways we folloed for every approach, we can enable self-heal in Argo CD using the K8S manifest file, Argo CD UI, and Argo CD CLI.
+The same three ways we followed for every approach, we can enable self-heal in Argo CD using the K8S manifest file, Argo CD UI, and Argo CD CLI.
 
 #### Declarative Way:
 
@@ -144,3 +144,4 @@ argocd app set my-app --sync-policy automated --self-heal <other-flags>
 - Follow the above methods I mentioned for enabling auto-sync.
 - After that, You will be prompted with the `Self Heal` toggle button. Enable it.
 
+Date of Notes: 27/04/2024

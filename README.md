@@ -14,21 +14,21 @@ This repository contains the learning and preparation materials I used to learn 
 
 ## Table of Contents
 
-| No. | Topic                                                                 |
-| --- | --------------------------------------------------------------------- |
-| 1   | [Introduction to GitOps](./gitops.md)                                 |
-| 2   | [Introduction to Argo CD](./argocd/argocd-basics/)                    |
-| 3   | [Setting up Argo CD](./argocd/argocd-setup/)                          |
-| 4   | [Argo CD Applications](./argocd/argocd-applications/)                 |
-| 5   | [Argo CD Project](./argocd/argocd-projects/)                          |
-| 6   | [Argo CD Auto Sync](./argocd/argocd-auto-sync/)                       |
-| 7   | [Adding Remote Cluster to Argo CD](./argocd/k8s-remote-cluster/)      |
-| 8   | [Argo CD Tracking Strategies](./argocd/tracking-strategies/)          |
-| 9   | [Adding Private Repository to Argo CD](./argocd/private-repositories/)|
-| 10  | [Diffing Customization in Argo CD](./argocd/diffing-customization/)   |
-| 11  | [ApplicationSets in Argo CD](./argocd/applicationsets/)               |
-| 12  | [Sync Phases & Waves in Argo CD](./argocd/sync-phases-and-waves/)     |
-| 13  | [Argo CD Best Practices](./argocd/best-practices/)                    |
+| No. | Topic                                                                 | Official Docs Link |
+| --- | --------------------------------------------------------------------- | ------------------ |
+| 1   | [Introduction to GitOps](./gitops.md)                                 | [GitOps](https://www.gitops.tech/) |
+| 2   | [Introduction to Argo CD](./argocd/argocd-basics/)                    | [Argo CD](https://argoproj.github.io/argo-cd/)                          |
+| 3   | [Setting up Argo CD](./argocd/argocd-setup/)                          | [Argo CD Installation](https://argoproj.github.io/argo-cd/getting_started/) |
+| 4   | [Argo CD Applications](./argocd/argocd-applications/)                 | [Argo CD Applications](https://argoproj.github.io/argo-cd/getting_started/#3-create-an-application) |
+| 5   | [Argo CD Project](./argocd/argocd-projects/)                          | [Argo CD Projects](https://argoproj.github.io/argo-cd/getting_started/#2-create-a-project) |
+| 6   | [Argo CD Auto Sync](./argocd/argocd-auto-sync/)                       | [Argo CD Auto Sync](https://argoproj.github.io/argo-cd/user-guide/auto_sync/) |
+| 7   | [Adding Remote Cluster to Argo CD](./argocd/k8s-remote-cluster/)      | [Argo CD Remote Clusters](https://argoproj.github.io/argo-cd/user-guide/cluster-management/) |
+| 8   | [Argo CD Tracking Strategies](./argocd/tracking-strategies/)          | [Argo CD Tracking Strategies](https://argoproj.github.io/argo-cd/user-guide/tracking_strategies/) |
+| 9   | [Adding Private Repository to Argo CD](./argocd/private-repositories/)| [Argo CD Private Repositories](https://argoproj.github.io/argo-cd/user-guide/private-repositories/) |
+| 10  | [Diffing Customization in Argo CD](./argocd/diffing-customization/)   | [Argo CD Diffing Customization](https://argoproj.github.io/argo-cd/user-guide/diffing/) |
+| 11  | [ApplicationSets in Argo CD](./argocd/applicationsets/)               | [Argo CD ApplicationSets](https://argoproj.github.io/argo-cd/user-guide/applicationsets/) |
+| 12  | [Sync Phases & Waves in Argo CD](./argocd/sync-phases-and-waves/)     | [Argo CD Sync Phases & Waves](https://argoproj.github.io/argo-cd/user-guide/sync-waves/) |
+| 13  | [Argo CD Best Practices](./argocd/best-practices/)                    | [Argo CD Best Practices](https://argoproj.github.io/argo-cd/best_practices/) |
 
 ## Projects
 

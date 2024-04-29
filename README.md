@@ -26,7 +26,7 @@ This repository contains the learning and preparation materials I used to learn 
 | 8   | [Argo CD Tracking Strategies](./argocd/tracking-strategies/)          | [Argo CD Tracking Strategies](https://argoproj.github.io/argo-cd/user-guide/tracking_strategies/) |
 | 9   | [Adding Private Repository to Argo CD](./argocd/private-repositories/)| [Argo CD Private Repositories](https://argoproj.github.io/argo-cd/user-guide/private-repositories/) |
 | 10  | [Diffing Customization in Argo CD](./argocd/diffing-customization/)   | [Argo CD Diffing Customization](https://argoproj.github.io/argo-cd/user-guide/diffing/) |
-| 11  | [ApplicationSets in Argo CD](./argocd/applicationsets/)               | [Argo CD ApplicationSets](https://argoproj.github.io/argo-cd/user-guide/applicationsets/) |
+| 11  | [ApplicationSets in Argo CD](./argocd/argocd-applicationsets/)               | [Argo CD ApplicationSets](https://argoproj.github.io/argo-cd/user-guide/applicationsets/) |
 | 12  | [Sync Phases & Waves in Argo CD](./argocd/sync-phases-and-waves/)     | [Argo CD Sync Phases & Waves](https://argoproj.github.io/argo-cd/user-guide/sync-waves/) |
 | 13  | [Argo CD Best Practices](./argocd/best-practices/)                    | [Argo CD Best Practices](https://argoproj.github.io/argo-cd/best_practices/) |
 

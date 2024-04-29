@@ -77,6 +77,7 @@ spec:
     - group: ''
       kind: 'Service'
 ```
+---
 
 #### Using Argo CD UI:
 
@@ -90,6 +91,8 @@ spec:
 ![Screenshot 2024-04-28 195654](https://github.com/mathesh-me/argo-cd-prep/assets/144098846/249c565f-c344-4c29-85c4-ee5b4840dc6f)
 ![Screenshot 2024-04-28 195736](https://github.com/mathesh-me/argo-cd-prep/assets/144098846/68b47295-eab1-4b03-8775-10e82f710236)
 ![Screenshot 2024-04-28 195752](https://github.com/mathesh-me/argo-cd-prep/assets/144098846/6c22b495-b1c2-4c78-be5b-4749028bf1ad)
+
+---
 
 #### Using Argo CD CLI:
 

@@ -34,7 +34,7 @@ This repository contains the learning and preparation materials I used to learn 
 
 | No. | Project Name | Description |
 | --- | ------------ | ----------- |
-| 1   | To be Added  | To be Added |
+| 1   | [End-to-End CI/CD Pipeline for Flask Application Based on GitOps](https://medium.com/towards-aws/end-to-end-ci-cd-pipeline-for-flask-application-based-on-gitops-e081b1cae156)  | This project is a complete guide to setting up a CI/CD Pipeline for a Flask Application using GitOps. It uses Argo CD for Continuous Deployment. |
 
 ## Tools & OS Used
 
